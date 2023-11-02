@@ -1,5 +1,14 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 90vw;
+    padding: 5px;
+    margin: auto;
+    background-color: burlywood;
+    border-radius: 3%;
 }
 
 h1 {
@@ -19,4 +28,14 @@ img {
 .centered ul {
     display: inline-block;
     text-align: left;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: bisque;
 }
